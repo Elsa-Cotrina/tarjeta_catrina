@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Elsa Catrina</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100dvh;
+            margin: 0;
+            background-image: url('https://i.postimg.cc/x9MyhM3D/react-system.webp');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-family: monospace;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            max-width: 330px;
+            padding: 16px;
+            border-radius: 16px;
+            box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5);
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(4px);
+            text-align: center;
+        }
+
+        img {
+            width: 230px;
+            height: 230px;
+            border-radius: 50%;
+        }
+
+        h1 {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 16px;
+            color: lightgray;
+            margin: 0;
+            gap: 2px;
+        }
+
+        p {
+            font-size: 14px;
+            margin: 0;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .badge {
+            padding: 4px;
+            border-radius: 8px;
+            background-color: #23b5e8;
+            color: black;
+            font-weight: 700;
+            transition: box-shadow 0.25s, filter 0.25s;
+            cursor: pointer;
+
+            &:hover {
+                box-shadow: 0 2px 4px 0 #23b5e8;
+                filter: brightness(1.25);
+            }
+        }
+
+        .link {
+            color: white;
+            font-weight: 700;
+            transition: color 0.25s;
+
+            &:hover {
+                color: #23b5e8;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <img src="https://i.postimg.cc/C1Zc4hcT/elsa-lindkedin.png" width="230" height="230" alt="Catrina">
+        <h1>❤️ Elsa Catrina <sup>20</sup>❤️</h1>
+        <h2>🌌 Estudiante de Frontend 🌌 <br> 💻 Aprendiz de Consultor 💻 <br> 👨‍🏫 Aspirante a Desarrollador 👨‍🏫</h2>
+        <p>
+            👩‍💻 Estudiante entusiasta de desarrollo web Frontend. Interesada en aprender React y Next.js. Apasionada por el autoaprendizaje y la creación de código eficiente y de calidad. 👩‍💻
+        </p>
+        <ul>
+            <li class="badge">⚛️ Aprender React ⚛️</li>
+            <li class="badge">🌌 Explorar Next.js 🌌</li>
+            <li class="badge">🚀 Conocer CSS 🚀</li>
+            <li class="badge">🔍 Aprender Vue.js 🔍</li>
+            <li class="badge">🎨 Conocer UI/UX 🎨</li>
+            <li class="badge">🖌️ Figma 🖌️</li>
+        </ul>
+        <ul>
+            <li>
+              <a href="https://www.youtube.com/channel/UCIsiWEMkOGYyu2xZbPcQkpQ" class="link">YouTube</a>
+            </li>
+            <li>
+              <a href="https://github.com/Elsa-Cotrina" class="link">GitHub</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/elsa-cotrina-maluquiz-162501272/" class="link">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/Elsa.Cotrina.Maluquiz" class="link">facebook</a>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
